@@ -1,0 +1,32 @@
+rootProject.ext {
+
+    android =
+            [
+                    compileSdkVersion: 28,
+                    applicationId    : "com.ydds.ddz",
+                    minSdkVersion    : 16,
+                    targetSdkVersion : 28,
+                    versionCode      : 1,
+                    versionName      : "1.0.0",
+            ]
+
+    def support_version = '28.0.0'
+
+    def alibaba_arouter = '1.4.1'
+    def annotationProcessor = '1.2.2'
+    def gson = '2.8.5'
+
+    def junit = '4.12'
+
+    dependencies =
+            [
+                    support_v7         : "com.android.support:appcompat-v7:$support_version",
+
+                    alibaba_arouter    : "com.alibaba:arouter-api:$alibaba_arouter",
+                    annotationProcessor: "com.alibaba:arouter-compiler:$annotationProcessor",
+                    gson               : "com.google.code.gson:gson:$gson",
+
+                    junit              : "junit:junit:$junit",
+
+            ]
+}

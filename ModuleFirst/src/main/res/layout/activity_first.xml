@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#00574B"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="ModuleFirst"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/bt_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="跳转Second" />
+
+    <Button
+        android:id="@+id/bt_go_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="跳转Second for result" />
+
+    <Button
+        android:id="@+id/bt_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="获取Second信息" />
+
+    <Button
+        android:id="@+id/bt_do_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="异步获取Second信息" />
+
+    <Button
+        android:id="@+id/bt_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="设置Second信息" />
+
+    <Button
+        android:id="@+id/bt_check_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="校验设置Second信息" />
+
+    <Button
+        android:id="@+id/bt_degrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="全局降级" />
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+include ':app', ':LibRouter'
+include ':ModuleSecond'
+include ':ModuleFirst'
+include ':LibCommon'
